@@ -1,0 +1,82 @@
+* {
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient(180deg, #E6E6FA 0%, #B8E7FA 100%);
+}
+
+header {
+    background-color: #FFFFFF;
+    margin: 0px;
+    padding: 24px;
+}
+
+header h1 {
+    margin: 0px;
+    color: black;
+}
+
+#titel-bar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#titel-bar span {
+    color: #FFA500;
+}
+
+.btn {
+    background-image: linear-gradient(to right, #FFA500 0%, #FFD447 100%);
+    color: #0D1321;
+    opacity: 80%;
+    border-radius: 10px;
+    border-width: 3px;
+    border-color: #FFA500;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+    padding: 17px 24px;
+}
+
+#banner1-containar {
+    width: 87.5%;
+    margin: 100px auto 100px auto;
+}
+
+#banner1 {
+    background-color: #E6EDF9;   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px 60px;
+    border-radius: 16px;
+}
+
+#banner1 img {
+    max-width: 100%;
+    width: 19.5%;
+ 
+}
+#h1{
+    font-weight: 48px;
+    font-style: 800px;
+    line-height: 48px;
+    color: #0D1321;
+}
+.banner1-text{
+    max-width: 90%;
+}
+#p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #0D1321;
+    opacity: 70%;
+    margin: 0px auto 0px auto;
+}
