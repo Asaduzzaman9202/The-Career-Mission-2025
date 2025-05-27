@@ -3,6 +3,10 @@
     box-sizing: border-box;
 }
 
+#banner3-contant .last-box a {
+    color: #0D1321;
+}
+
 body {
     max-width: 100%;
     margin: 0px;
@@ -41,10 +45,15 @@ header h1 {
     cursor: pointer;
     padding: 12px 24px;
     width: auto;
-    /* Prevent stretching */
     display: inline-block;
-    /* Prevent stretching */
     font-weight: bold;
+}
+
+.btn:hover{
+    background-image: linear-gradient(to bottom, #E6EDF9 0%, #9DE5FF 100%);
+    border-radius: 10px;
+    border: 3px solid #9DE5FF;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.19);
 }
 
 #banner1-containar {
@@ -156,6 +165,7 @@ header h1 {
     line-height: 26px;
     opacity: 70%;
     line-height: 36px;
+    padding-bottom: 24px;
 }
 
 img {
@@ -249,6 +259,8 @@ footer {
     justify-content: space-between;
     padding: 32px 150px;
     background-color: #FFFFFF;
+    align-items: center;
+    text-align: center;
 }
 
 footer .footer-logo {
@@ -268,6 +280,7 @@ footer .footer-logo img {
 }
 
 footer h3 {
+
     color: #0D1321;
     margin: 0px;
     padding: 0px;
