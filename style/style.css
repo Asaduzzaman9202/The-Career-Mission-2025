@@ -40,33 +40,41 @@ header h1 {
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.19);
     cursor: pointer;
     padding: 12px 24px;
-    width: auto; /* Prevent stretching */
-    display: inline-block; /* Prevent stretching */
+    width: auto;
+    /* Prevent stretching */
+    display: inline-block;
+    /* Prevent stretching */
     font-weight: bold;
 }
 
 #banner1-containar {
-    max-width:  87.5%;
+    max-width: 87.5%;
     margin: 100px auto 100px auto;
 }
-#banner2-containar{
+
+#banner2-containar {
     max-width: 87.5%;
     margin: 0px auto 100px auto;
 
 }
 
+#last-containar {
+    max-width: 87.5%;
+    margin: 0px auto 100px auto;
+}
+
 #banner1 {
-    background-color: #E6EDF9;   
+    background-color: #E6EDF9;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
     padding: 40px 60px;
-    border-radius: 16px;    
+    border-radius: 16px;
 }
 
-#banner2-banner .banner2-contant{ 
+#banner2-banner .banner2-contant {
     background-color: #E6EDF9;
     border-radius: 16px;
     padding: 48px;
@@ -78,14 +86,16 @@ header h1 {
     margin: 0px auto 48px auto;
     text-align: center;
 }
-.banner2-hedding h2{
+
+.banner2-hedding h2 {
     margin: 0px;
     padding: 0px;
     font-size: 32px;
     font-style: 800px;
     color: #0D1321;
 }
-.banner2-hedding .p{
+
+.banner2-hedding .p {
     font-size: 16px;
     line-height: 26px;
     color: #0D1321;
@@ -93,21 +103,26 @@ header h1 {
     margin: 0px auto 0px auto;
 }
 
+
+
 #banner1 img {
     max-width: 100%;
     width: 19.5%;
- 
+
 }
-#h1{
+
+#h1 {
     font-weight: 48px;
     font-style: 800px;
     line-height: 48px;
     color: #0D1321;
 }
-.banner1-text{
+
+.banner1-text {
     max-width: 90%;
 }
-#p{
+
+#p {
     font-size: 16px;
     line-height: 26px;
     color: #0D1321;
@@ -115,32 +130,146 @@ header h1 {
     margin: 0px auto 0px auto;
 }
 
-.banner2-contant .banner2-text{
+.banner2-contant .banner2-text {
     display: flex;
     justify-content: space-between;
-    
+
 }
-#banner2-side{
+
+#banner2-side {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-#banner2-side h2{
+
+#banner2-side h2 {
     margin: 0px;
     padding-bottom: 16px;
     font-size: 24px;
     font-style: bold;
     color: #0D132180;
 }
-#banner2-side p{
+
+#banner2-side p {
     margin: 0px;
-    padding-bottom: 32px;
     font-size: 16px;
     line-height: 26px;
     opacity: 70%;
     line-height: 36px;
 }
-img{
+
+img {
     max-width: 100%;
 }
 
+#video-containar {
+    max-width: 80.7%;
+    margin: 0px auto 100px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.video-text {
+    max-width: 77.4%;
+    text-align: center;
+    margin: 0px auto 0px auto;
+}
+
+.video-text p {
+    max-width: 77.4%;
+    text-align: center;
+    margin: 16px auto 0px auto;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+#video-containar h1 {
+    margin: 0px;
+    padding: 0px;
+    color: #0D1321;
+    font-weight: 32px;
+    font-style: 800px;
+}
+
+#video-content {
+    width: 100%;
+    max-width: 70%;
+    margin-top: 48px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 16px;
+    border-color: #0D132120;
+
+    padding: 32px;
+}
+
+iframe {
+
+    display: block;
+    max-width: 100%;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 18px;
+}
+
+#banner3-contant {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+#banner3-contant .last-box {
+    width: 28%;
+    background-image: linear-gradient(to bottom, #E6EDF9 0%, #9DE5FF 100%);
+    padding: 40px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 40px rgba(0, 0, 0, 0.25);
+}
+
+#banner3-contant .last-box h1 {
+    text-align: left;
+}
+
+#banner3-contant .last-box img {
+    text-align: left;
+    width: 19%;
+}
+
+footer {
+    max-width: 100%;
+    height: inherit;
+    color: #0D1321;
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 150px;
+    background-color: #FFFFFF;
+}
+
+footer .footer-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+footer .footer-logo img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+    margin: 0 5px;
+    gap: 80px;
+}
+
+footer h3 {
+    color: #0D1321;
+    margin: 0px;
+    padding: 0px;
+
+}
