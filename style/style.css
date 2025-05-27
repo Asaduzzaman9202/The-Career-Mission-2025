@@ -229,7 +229,7 @@ iframe {
 #banner3-contant {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     gap: 32px;
 }
 

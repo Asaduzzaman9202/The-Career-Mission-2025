@@ -1,0 +1,110 @@
+/* responsive.css */
+
+/* Laptop devices (max-width: 1200px) */
+@media screen and (max-width: 1200px) {
+    #banner1,
+    #banner2-banner .banner2-contant,
+    #last-containar,
+    #video-content {
+        padding: 32px;
+    }
+
+    
+
+    #banner3-contant .last-box {
+        width: 45%;
+    }
+}
+
+/* Tablet devices (max-width: 1024px) */
+@media screen and (max-width: 1024px) {
+    
+
+    
+
+    #banner1 img {
+        width: 35%;
+    }
+
+    .banner2-contant .banner2-text {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .banner2-text img {
+        order: -1;
+    }
+
+    #banner2-side,
+    .banner2-text img {
+        width: 100%;
+    }
+
+    #banner3-contant {
+        justify-content: center;
+    }
+
+    #banner3-contant .last-box {
+        width: 80%;
+    }
+
+    
+}
+
+/* Mobile devices (max-width: 640px) */
+@media screen and (max-width: 640px) {
+    
+
+    #banner1,
+    #banner2-banner .banner2-contant,
+    #video-content,
+    #last-containar {
+        padding: 16px;
+    }
+
+    #banner1 img,
+    .banner2-text img {
+        width: 80%;
+        margin-bottom: 16px;
+    }
+
+    .btn {
+        width: auto;
+        padding: 12px 24px;
+    }
+
+    #video-content {
+        padding: 16px;
+    }
+
+    iframe {
+        height: 200px;
+    }
+
+    .banner2-text {
+        flex-direction: column;
+    }
+
+    .banner2-text img {
+        order: -1;
+    }
+    #banner3-contant{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #banner3-contant .last-box {
+        width: 100%;
+    }
+
+    footer {
+        flex-direction: column;     
+        padding: 24px 10px;
+    }
+
+    footer .footer-logo img {
+        width: 20%px;
+        height: auto;
+    }
+}
