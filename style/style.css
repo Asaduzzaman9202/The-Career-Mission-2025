@@ -5,6 +5,7 @@
 
 #banner3-contant .last-box a {
     color: #0D1321;
+    font-style: bold;
 }
 
 body {
@@ -49,7 +50,7 @@ header h1 {
     font-weight: bold;
 }
 
-.btn:hover{
+.btn:hover {
     background-image: linear-gradient(to bottom, #E6EDF9 0%, #9DE5FF 100%);
     border-radius: 10px;
     border: 3px solid #9DE5FF;
