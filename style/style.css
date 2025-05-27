@@ -34,18 +34,25 @@ header h1 {
 .btn {
     background-image: linear-gradient(to right, #FFA500 0%, #FFD447 100%);
     color: #0D1321;
-    opacity: 80%;
+    opacity: 0.8;
     border-radius: 10px;
-    border-width: 3px;
-    border-color: #FFA500;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.19);
+    border: 3px solid #FFA500;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.19);
     cursor: pointer;
-    padding: 17px 24px;
+    padding: 12px 24px;
+    width: auto; /* Prevent stretching */
+    display: inline-block; /* Prevent stretching */
+    font-weight: bold;
 }
 
 #banner1-containar {
-    width: 87.5%;
+    max-width:  87.5%;
     margin: 100px auto 100px auto;
+}
+#banner2-containar{
+    max-width: 87.5%;
+    margin: 0px auto 100px auto;
+
 }
 
 #banner1 {
@@ -56,7 +63,34 @@ header h1 {
     align-items: center;
     text-align: center;
     padding: 40px 60px;
+    border-radius: 16px;    
+}
+
+#banner2-banner .banner2-contant{ 
+    background-color: #E6EDF9;
     border-radius: 16px;
+    padding: 48px;
+    gap: 32px;
+}
+
+.banner2-hedding {
+    max-width: 90%;
+    margin: 0px auto 48px auto;
+    text-align: center;
+}
+.banner2-hedding h2{
+    margin: 0px;
+    padding: 0px;
+    font-size: 32px;
+    font-style: 800px;
+    color: #0D1321;
+}
+.banner2-hedding .p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #0D1321;
+    opacity: 70%;
+    margin: 0px auto 0px auto;
 }
 
 #banner1 img {
@@ -80,3 +114,33 @@ header h1 {
     opacity: 70%;
     margin: 0px auto 0px auto;
 }
+
+.banner2-contant .banner2-text{
+    display: flex;
+    justify-content: space-between;
+    
+}
+#banner2-side{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#banner2-side h2{
+    margin: 0px;
+    padding-bottom: 16px;
+    font-size: 24px;
+    font-style: bold;
+    color: #0D132180;
+}
+#banner2-side p{
+    margin: 0px;
+    padding-bottom: 32px;
+    font-size: 16px;
+    line-height: 26px;
+    opacity: 70%;
+    line-height: 36px;
+}
+img{
+    max-width: 100%;
+}
+
